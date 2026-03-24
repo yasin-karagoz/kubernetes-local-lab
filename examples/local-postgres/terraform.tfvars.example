@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and adjust values
+# cp terraform.tfvars.example terraform.tfvars
+
+project_name     = "local-postgres"
+postgres_version = "16"
+postgres_port    = 5432
+postgres_user    = "admin"
+postgres_password = "changeme"
+postgres_db      = "postgres"
+
+pgadmin_port     = 5050
+pgadmin_email    = "admin@local.dev"
+pgadmin_password = "admin"
